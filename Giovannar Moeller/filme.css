@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+* {
+    background-color: #17162E;
+    color: #fff;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.header_container {
+    margin: auto;
+    text-align: center;
+}
+
+.titulo {
+    font-weight: 600;
+    /* font-family:  "Kumbh Sans", sans-serif; */
+    font-size: 36px;
+}
+
+.quadro_pesquisa {
+    border-radius: 10px;
+    margin: auto;
+    width: 634px;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+#paragarfo_pesquisa{
+    color: #8A8A8A;
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    /* text-overflow: ellipsis; */
+    /* overflow: hidden; */
+    /* white-space: pre; */
+    outline: none;
+    width: 30rem;
+}
+
+#search {
+    color: #8A8A8A;
+    background-color: #fff;
+}
+
+.caixaSelecaoEparagrafo {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+/*----------------------------------------------------*/
+
+.main-quadro {
+    margin: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+section {
+    background-color: #1D1C3B;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    border-radius: 10px;
+    height: 201px;
+}
+
+.imagemEtexto {
+    background-color: #1D1C3B;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.imagem_container {
+    position: relative;
+    width: 150px;    
+    height: 150px;    
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+img.filmeFoto {
+    width: 100%;    
+    height: auto;    
+    display: block;
+}
+
+.section_iconsEtexto {
+    width: 13rem;
+    background-color: #1D1C3B;
+}
+
+.iconsEtexto {
+    background-color: #1D1C3B;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon,
+.texto {
+    background-color: #1D1C3B;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+p,
+span {
+    background-color: #1D1C3B;
+}
+
+.quadro_paragrafo {
+    background-color: #1D1C3B;
+    width: 40rem;
+}
+
+.paragarfo {
+    background-color: #1D1C3B;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 300;
+}
