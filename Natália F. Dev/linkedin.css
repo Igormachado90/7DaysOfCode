@@ -1,0 +1,263 @@
+body {
+    position: relative; 
+    background: black
+}
+
+section.perfil_container {
+    width: 780px; 
+    height: 468px; 
+    left: 154px; 
+    top: 76px; 
+    position: absolute
+}
+
+.perfil_background {
+    width: 780px;
+    height: 238px;
+    position: absolute;
+    background: #1B2226;
+    border-radius: 0px 0px 16px 16px ;
+    top: 230px;
+    left: 0;
+}
+
+.perfil_image {
+    width: 780px;
+    height: 230px;
+    position: absolute;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    top: 0;
+    left: 0;
+}
+
+.perfil_avatar {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    border-radius: 9999px;
+    border: 4px #1B2226 solid;
+    top: 118px;
+    left: 24px;
+}
+
+.perfil_nome {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 600;
+    line-height: 30px;
+    word-wrap: break-word;
+    top: 286px;
+    left: 24px;
+}
+
+.perfil_profissao {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 600;
+    line-height: 20px;
+    word-wrap: break-word;
+    top: 316px;
+    left: 24px;
+}
+
+.perfil_interesses {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 20px;
+    word-wrap: break-word;
+    top: 340px;
+    left: 24px;
+}
+
+.perfil_localizacao {
+    position: absolute;
+    top: 364px;
+    left: 24px;
+}
+
+.perfil_endereco {
+    /* position: absolute; */
+    color: #ffffff99;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 20px;
+    word-wrap: break-word;
+}
+
+.perfil_contato {
+    /* position: absolute; */
+    color: #70B5F9;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 20px;
+    word-wrap: break-word;
+    left: 147px;
+}
+
+.perfil_seguidores {
+    position: absolute;
+    top: 388px;
+    left: 24px;
+}
+
+.perfil_numero_seguidores,
+.perfil_numero_conexoes {
+    /* position: absolute; */
+    color: #70B5F9;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 20px;
+    word-wrap: break-word;
+}
+
+.perfil_numero_conexoes {
+    left: 107px;
+}
+
+.perfil_numero_seguidores::after {
+    content: " seguidores";
+}
+
+.perfil_numero_conexoes::after {
+    content: " conexões";
+}
+
+/* Selecionando a classe da div container */
+.info_container {
+    width: 190px;
+    height: 72px;
+    left: 552px;
+    top: 302px;
+    position: absolute;
+}
+
+/* Selecionando a classe da div que contém informações da empresa */
+.empresa_info {
+    width: 103px;
+    height: 32px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+/* Selecionando a classe da div que contém o nome da empresa */
+.empresa_nome {
+    left: 40px;
+    top: 6px;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 600;
+    line-height: 20px;
+    word-wrap: break-word;
+}
+
+/* Selecionando a classe da imagem da logo da empresa */
+.empresa_logo {
+    width: 32px;
+    height: 32px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+/* Selecionando a classe da div que contém informações da instituição de ensino */
+.instituicao_info {
+    width: 190px;
+    height: 32px;
+    left: 0px;
+    top: 40px;
+    position: absolute;
+}
+
+/* Selecionando a classe da div que contém o nome da instituição de ensino */
+.instituicao_nome {
+    left: 40px;
+    top: 6px;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 600;
+    line-height: 20px;
+    word-wrap: break-word;
+}
+
+/* Selecionando a classe da imagem da logo da instituição de ensino */
+.instituicao_logo {
+    width: 32px;
+    height: 32px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+/* Seletor para o container do botão */
+.button_container {
+    width: 263px;
+    height: 32px;
+    left: 23px;
+    top: 420px;
+    position: absolute;
+}
+
+/* Seletor para a parte esquerda do botão */
+.button_left {
+    width: 128px;
+    height: 32px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #70B5F9;
+    border-radius: 16px;
+}
+
+/* Seletor para a parte direita do botão */
+.button_right {
+    width: 128px;
+    height: 32px;
+    left: 135px;
+    top: 0px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    border: 1px #70B5F9 solid;
+}
+
+/* Seletor para o texto do botão */
+.button_text {
+    left: 29px;
+    top: 6px;
+    position: absolute;
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 20px;
+    word-wrap: break-word;
+}
+
+/* Seletor para o texto 'Mais' */
+.button_more {
+    left: 184px;
+    top: 6px;
+    position: absolute;
+    color: #70B5F9;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 20px;
+    word-wrap: break-word;
+}
